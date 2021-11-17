@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif, Roboto;
+}
+
+body,
+html {
+    line-height: 1.6;
+}
+
+ul,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 75vw;
+    margin: auto;
+
+}
+
+.row {
+    display: flex;
+}
+
+.card {
+    height: 27.25rem;
+    background-color: white;
+    /* margin: 1rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    margin: 1rem;
+}
+
+.card h3 {
+    font-family: roboto Slab;
+    font-size: var(--text-size-h3);
+    color: var(--text-black-color);
+    font-weight: 500;
+
+}
+
+.card p {
+    text-align: center;
+    font-family: roboto;
+    font-size: var(--text-size-para);
+    padding: 0 4.2rem 4.5rem 4.2rem;
+    font-weight: 400;
+}
+
+.circel {
+    height: 7.5rem;
+    width: 7.5rem;
+    margin: 4rem 0 2rem 0;
+    background-color: var(--green-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circel:hover {
+    cursor: pointer;
+    background-color: var(--blue-color);
+    transition: 0.3s;
+}
+
+.border-bottom {
+    border-bottom: 1px solid var(--border-gray-color);
+}
+
+.btn {
+    font-family: roboto;
+    font-size: var(--text-size-para);
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 1.2rem 3.5rem;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: var(--blue-color);
+
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+.bg-primary {
+    background-color: var(--blue-color);
+}
+
+.color-primary {
+    color: var(--blue-color);
+}
+
+.bg-success {
+    background-color: var(--green-color);
+}
